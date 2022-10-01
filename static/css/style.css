@@ -11,10 +11,12 @@ header{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	height: 20vh;
 }
 #word{
 	color: #fff;
 	font-size: 30px;
+	font-weight: bold;
 	margin: 0;
 	padding: 0;
 	font-family: "Audiowide", sans-serif;
@@ -44,6 +46,7 @@ header{
 	display: flex;
 	width: 60px;
 	height: 60px;
+	margin: 5px;
 }
 #right_menu p{
 	color: #fff;
@@ -97,4 +100,18 @@ body{
 	background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+section{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 80vh;
+}
+section p{
+	color: #FFF;
+	font-size: 40px;
+	font-family: "Audiowide", sans-serif;
+}
+section span{
+	font-size: 20px;
 }
